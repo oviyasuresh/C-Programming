@@ -20,7 +20,7 @@ int main(void)
 	}
 	else
 	{
-		printf("\n %s %s",str1,str2);
+		printf("\n %s",str2);
 	}
 	return 0;
 }
