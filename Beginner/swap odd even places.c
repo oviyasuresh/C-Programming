@@ -10,8 +10,6 @@ int main(void)
 
 	int i,temp,n;
 
-	printf("enter the string:");
-
 	gets(string);
 
 	n=strlen(string);
