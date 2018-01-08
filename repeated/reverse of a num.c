@@ -14,7 +14,6 @@ int result;
 
  
 
-printf("\n enter the number:");
 
  
 
