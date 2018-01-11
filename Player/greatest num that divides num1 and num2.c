@@ -4,7 +4,7 @@ int main(void)
 {
 	int n,k,i,len;
 	scanf("%d %d",&n,&k);
-	if(n<k)
+	if(n>k)
 	{
 		len=n;
 	}
