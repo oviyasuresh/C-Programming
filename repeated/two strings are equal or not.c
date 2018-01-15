@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include<string.h>
 int main(void) 
 {
 	char str1[20],str2[20];
