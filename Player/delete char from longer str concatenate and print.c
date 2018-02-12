@@ -7,7 +7,7 @@ int main(void)
 	int l1,l2,i,len;
 	l1=strlen(s1);
 	l2=strlen(s2);
-	if(l1<2)
+	if(l1<l2)
 	{
 		len=l1;
 	}
