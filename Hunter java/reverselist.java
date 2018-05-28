@@ -9,9 +9,9 @@ class Node
 	Node()
 	{
 	}
-	public Node(int m)
+	public Node(int o)
 	{
-		data=m;
+		data=o;
 		Node next=null;
 		Node head=null;
 	}
