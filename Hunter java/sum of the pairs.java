@@ -7,22 +7,22 @@ public class hunter24
 
 	public static void main(String[] args) 
 	{
-		int n,k,a[];
+		int n,k,ar[];
 		Scanner scan=new Scanner(System.in);
 		n=scan.nextInt();
-		a=new int[n];
+		ar=new int[n];
 		k=scan.nextInt();
 		for(int i=0;i<n;i++)
-		 a[i]=scan.nextInt();
+		 ar[i]=scan.nextInt();
 		int count=0;
 		for(int i=0;i<n;i++)
 		{
-			if(a[i]<=k)
+			if(ar[i]<=k)
 			{
 				int sum=0;
 				for(int j=i+1;j<n;j++)
 				{
-					sum=a[i]+a[j];
+					sum=ar[i]+ar[j];
 					if(sum==k)
 						{System.out.print("YES");
 						count=count+1;
