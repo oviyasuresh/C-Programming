@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-int n, c, k;
+int n, c1, k;
 scanf("%d",&n);
  
-    for ( c = 1 ; c <= n ; c++ )
+    for ( c1 = 1 ; c1 <= n ; c1++ )
     {
         for( k = 1 ; k <((n*2)-1) ; k+2 )
             printf("1 ");
