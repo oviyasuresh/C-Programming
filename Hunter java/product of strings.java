@@ -8,11 +8,11 @@ public class Returnasstring {
 		Scanner sc=new Scanner(System.in);
 		String s1=sc.nextLine();
 		String s2=sc.nextLine();
-		int x,y,z;
-		x=Integer.parseInt(s1);
-		y=Integer.parseInt(s2);
-		z=x*y;
-		System.out.print(String.valueOf(z));
+		int x1,y1,z1;
+		x1=Integer.parseInt(s1);
+		y1=Integer.parseInt(s2);
+		z1=x1*y1;
+		System.out.print(String.valueOf(z1));
 		sc.close();
 	}
 }
